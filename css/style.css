@@ -1,0 +1,49 @@
+.paralax-layer.paralax-context1 {
+    background-image: url('../foto/сute.jpg');
+    
+}
+
+
+.paralax-layer.paralax-context2 {
+    background-image: url('../foto/tiger.jpg');
+    
+}
+
+.paralax-layer.paralax-context-nearer {
+    background-image: url('../foto/cat.jpg');
+    background-attachment: local;
+    transform: translateZ(-1px) scale(2);
+    box-shadow:  1em 1em 1em 1em #5A5F5E;
+}
+
+.paralax-layer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: content-box;
+    height: 100vh;
+    
+    
+}
+
+.paralax {
+    perspective: 1px;
+    background-color: #B8B1A8;
+}
+h1 {
+    transform: translateY(0) scale(2);
+    margin: 0;
+    padding-top: 5%;
+    color: #897577;
+    text-align: center;
+}
+h1.nearer {
+    transform: translateZ(-4px) scale(3);
+    color: beige;
+}
+
+h1.last {
+    color: goldenrod;
+    font-size: 3em;
+}
